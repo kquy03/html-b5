@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương 1: Blog Công Nghệ (HTML)</title>
+</head>
+<body>
+    <header class="site-header">
+        <h1>📰 TechDaily Blog</h1>
+        <p>Cập nhật kiến thức Lập trình & Thiết kế Web mỗi ngày</p>
+    </header>
+
+    <nav class="filter-bar">
+        <div class="category-buttons">
+            <button type="button" class="cat-btn active" data-cat="all">Tất cả</button>
+            <button type="button" class="cat-btn" data-cat="html-css">HTML & CSS</button>
+            <button type="button" class="cat-btn" data-cat="js">JavaScript</button>
+            <button type="button" class="cat-btn" data-cat="career">Nghề nghiệp</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Tìm kiếm bài viết...">
+    </nav>
+
+    <main class="blog-container">
+        <article class="post-card" data-category="html-css">
+            <span class="badge">HTML & CSS</span>
+            <h2>Cách chia bố cục trang web chuẩn với Flexbox và CSS Grid</h2>
+            <p>Tìm hiểu sự khác biệt giữa Flexbox 1 chiều và Grid 2 chiều để dàn trang nhanh chóng, tương thích mọi màn hình.</p>
+            <small>Đăng ngày: 20/11/2026</small>
+        </article>
+
+        <article class="post-card" data-category="js">
+            <span class="badge">JavaScript</span>
+            <h2>5 hàm jQuery giúp xử lý hiệu ứng giao diện siêu mượt</h2>
+            <p>Tổng hợp các phương thức fadeIn, slideToggle, addClass và cách bắt sự kiện click hiệu quả cho người mới.</p>
+            <small>Đăng ngày: 21/11/2026</small>
+        </article>
+
+        <article class="post-card" data-category="career">
+            <span class="badge">Nghề nghiệp</span>
+            <h2>Hướng dẫn xây dựng Portfolio trên GitHub gây ấn tượng với nhà tuyển dụng</h2>
+            <p>Cách tổ chức repository gọn gàng và triển khai website miễn phí qua GitHub Pages chỉ trong 2 phút.</p>
+            <small>Đăng ngày: 22/11/2026</small>
+        </article>
+
+        <article class="post-card" data-category="html-css">
+            <span class="badge">HTML & CSS</span>
+            <h2>Tại sao nên dùng thẻ HTML ngữ nghĩa (Semantic HTML)?</h2>
+            <p>Thẻ header, main, article không chỉ giúp code dễ đọc hơn mà còn tối ưu điểm số SEO cho trang web.</p>
+            <small>Đăng ngày: 23/11/2026</small>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 TechDaily Blog - Bài tập Thiết kế Web</p>
+    </footer>
+</body>
+</html>
